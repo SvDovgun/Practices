@@ -9,7 +9,13 @@ public class ExceptionExercises {
     }
 
     private static int division(int a, int b) {
-        int c = a/b ;
+        int c = 0 ;
+        try {
+            c = a / b;
+            return c;
+        } catch (Exception e) {
+            System.out.println("Caught exception: " + e);
+        }
         return c;
     }
 }
