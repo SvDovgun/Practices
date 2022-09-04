@@ -1,4 +1,4 @@
-package com.luxoft.datastructures;
+package com.luxoft.practices;
 
 public class FindDoubleValue {
 
